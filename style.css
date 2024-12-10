@@ -1,0 +1,309 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #2e3a59;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header #logo h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header #logo p {
+    font-size: 18px;
+    margin: 0;
+    color: #a1c4fd;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #a1c4fd;
+}
+
+/* Home Section */
+#home {
+    background-color: #2e3a59;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home #banner h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#home #banner p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#home .action-button {
+    background-color: #a1c4fd;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#home .action-button:hover {
+    background-color: #ff8c00;
+}
+
+/* Posts Section */
+#posts {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#posts .section-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2e3a59;
+}
+
+#posts .post {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#posts .post:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+#posts .post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#posts .post p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Donate Section */
+#donate {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #2e3a59;
+    color: #fff;
+}
+
+#donate h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#donate p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#donate .donate-button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#donate .donate-button:hover {
+    background-color: #a1c4fd;
+}
+
+/* Events Section */
+#events {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#events .section-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2e3a59;
+}
+
+#events ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#events ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#testimonials .section-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2e3a59;
+}
+
+#testimonials .testimonial {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#testimonials .testimonial p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#testimonials .testimonial strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* FAQ Section */
+#faq {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#faq .section-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2e3a59;
+}
+
+#faq .question {
+    margin-bottom: 30px;
+}
+
+#faq .question h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#faq .question p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Blog Section */
+#blog {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#blog .section-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2e3a59;
+}
+
+#blog ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#blog ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#blog ul li a {
+    color: #2e3a59;
+    transition: color 0.3s ease;
+}
+
+#blog ul li a:hover {
+    color: #ff8c00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e3a59;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    #posts .post {
+        width: 48%;
+        margin: 10px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #home {
+        padding: 80px 20px;
+    }
+}
